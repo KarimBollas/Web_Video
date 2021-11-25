@@ -1,0 +1,21 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+
+   
+    <h1 class="display-4 ml1" onmousemove="anime.timeline(true)">
+        <span class="text-wrapper">
+            <span class="letters">Danzon  No.  2</span>
+        </span>
+    </h1>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CC7r74oitKw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div id="myContainer">
+        <div id="myAnimation">Arturo Márquez Navarro (born 20 December 1950) is a Mexican composer of orchestral music who uses musical forms and styles of his native Mexico and incorporates them into his compositions.</div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
